@@ -29,10 +29,19 @@
       <nav class="contacts-nav">
         <ul class="contacts-nav-list">
           <li class="contact-nav">
-            <a href="mailto:info@devstudio.com" class="link link-mail">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="link link-mail">
+              <button>
+                <svg class="contact-button">
+                  <use href="/img/icons.svg#icon-letter">
+                  </use>
+                </svg></button>info@devstudio.com</a>
           </li>
           <li class="contact-nav">
-            <a href="tel:+380961111111" class="link link-tel">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="link link-tel">
+              <button><svg class="contact-button">
+                  <use href="/img/icons.svg#icon-smartphone">
+                  </use>
+                </svg></button>+38 096 111 11 11</a>
           </li>
         </ul>
       </nav>
@@ -42,8 +51,8 @@
   <main>
     <div>
       <!--Ефективність-->
-      <section class="hero section-hero">
-        <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br>ВАШОГО БІЗНЕСУ<br/></h1>
+      <section class="hero section-hero overlay">
+        <h1 class="hero-title">ЕФЕКТИВНІ РІШЕННЯ ДЛЯ <br>ВАШОГО БІЗНЕСУ<br /></h1>
         <button type="button" class="button main-btn">Замовити послугу</button>
       </section>
     </div>
@@ -52,27 +61,27 @@
       <div class="container">
         <h2 class="visually-hidden">Переваги</h2>
         <ul class="feature-list">
-          <li>
+          <li class="feature-item">
             <h3 class="title">УВАГА ДО ДЕТАЛЕЙ</h3>
             <p class="feature">
               Ідейні міркування, і навіть початок повсякденної роботи з
               формування позиції.
             </p>
           </li>
-          <li>
+          <li class="feature-item">
             <h3 class="title">ПУНКТУАЛЬНІСТЬ</h3>
             <p class="feature">
               Завдання організації, особливо рамки і місце навчання кадрів тягне
               у себе.
             </p>
           </li>
-          <li>
+          <li class="feature-item">
             <h3 class="title">ПЛАНУВАННЯ</h3>
             <p class="feature">
               Так само консультація з широким активом значною мірою зумовлює.
             </p>
           </li>
-          <li>
+          <li class="feature-item">
             <h3 class="title">СУЧАСНІ ТЕХНОЛОГІЇ</h3>
             <p class="feature">
               Значимість цих проблем настільки очевидна, що реалізація планових
@@ -108,25 +117,129 @@
             <img src="./img/img1.jpg" alt="Ігор Дем'яненко" width="270" />
             <h3 class="title-team">Ігор Дем'яненко</h3>
             <p class="position">Product Designer</p>
+            <ul class="actions">
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-instagram"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-twitter"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-facebook"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-linkedin2"></use>
+                  </svg></button></li>
+            </ul>
           </li>
           <li class="flex-team">
             <img src="./img/img2.jpg" alt="Ольга Рєпіна" width="270" />
             <h3 class="title-team">Ольга Рєпіна</h3>
             <p class="position">Frontend Developer</p>
+            <ul class="actions">
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-instagram"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-twitter"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-facebook"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-linkedin2"></use>
+                  </svg></button></li>
+            </ul>
           </li>
           <li class="flex-team">
             <img src="./img/img3.jpg" alt="Микола Тарасов" width="270" />
             <h3 class="title-team">Микола Тарасов</h3>
             <p class="position">Marketing</p>
+            <ul class="actions">
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-instagram"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-twitter"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-facebook"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-linkedin2"></use>
+                  </svg></button></li>
+            </ul>
           </li>
           <li class="flex-team">
             <img src="./img/img4.jpg" alt="Михайло Єрмаков" width="270" />
             <h3 class="title-team">Михайло Єрмаков</h3>
             <p class="position">UI Designer</p>
+            <ul class="actions">
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-instagram"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-twitter"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-facebook"></use>
+                  </svg></button></li>
+              <li><button class="icons"><svg class="button-icon">
+                    <use href="/img/icons.svg#icon-linkedin2"></use>
+                  </svg></button></li>
+            </ul>
           </li>
         </ul>
       </div>
-
+    </section>
+    <section class="section">
+      <div>
+        <h2 class="title-main">Постійні клієнти</h2>
+        <ul class="client-flex-list">
+          <li class="client-flex">
+            <button class="client">
+              <svg class="client-item">
+                <use href="/img/icons.svg#icon-client1"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="client-flex">
+            <button class="client">
+              <svg class="client-item">
+                <use href="/img/icons.svg#icon-client2"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="client-flex">
+            <button class="client">
+              <svg class="client-item">
+                <use href="/img/icons.svg#icon-client3"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="client-flex">
+            <button class="client">
+              <svg class="client-item">
+                <use href="/img/icons.svg#icon-client4"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="client-flex">
+            <button class="client">
+              <svg class="client-item">
+                <use href="/img/icons.svg#icon-client5"></use>
+              </svg>
+            </button>
+          </li>
+          <li class="client-flex">
+            <button class="client">
+              <svg class="client-item">
+                <use href="/img/icons.svg#icon-client6"></use>
+              </svg>
+            </button>
+          </li>
+        </ul>
+      </div>
     </section>
   </main>
   <!--Футер-->
