@@ -361,6 +361,14 @@ a {
     padding: 6px 22px;
 }
 
+.btn-primary:hover,
+.btn-secondary:hover {
+    border-color: #2196f3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+        0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
 .site-nav-list .href:last-child {
     margin-right: 0;
 }
@@ -381,7 +389,7 @@ a {
 }
 
 .contact-nav {
-    margin-right: 50px;
+    margin-right: 30px;
 }
 
 .contact-nav:last-child {
@@ -415,6 +423,13 @@ a {
     margin-bottom: 30px;
     background: #ffffff;
     border: 1px solid #eeeeee;
+}
+
+.flex-element:hover {
+    background: #ffffff;
+    border: 1px solid #eeeeee;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .flex-element:nth-child(3n) {
@@ -470,20 +485,33 @@ a {
     background-size: cover;
     background-position: center;
 }
+
+/*feature icon*/
 .feature-item::before {
     display: block;
-    content: '';
+    padding: 0;
+    fill: #afb1b8;
+}
+
+.feature-icon {
     background: #f5f4fa;
     border-radius: 4px;
     margin-bottom: 30px;
     margin-right: 30px;
+    padding: 25px 100px;
     width: 270px;
     height: 120px;
     background-size: 70px;
     background-repeat: no-repeat;
     background-position: center;
 }
+
+.feature-icon:hover {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 /*feature list icon*/
+/*
 .feature-item:nth-child(1)::before {
     background-image: url(/img/antenna.png);
 }
@@ -495,7 +523,7 @@ a {
 }
 .feature-item:nth-child(4)::before {
     background-image: url(/img/astronaut.png);
-}
+}*/
 
 /*clients*/
 .section .client-flex-list {
@@ -512,6 +540,7 @@ a {
 .client-flex:last-child {
     margin-right: 0;
 }
+
 .client {
     background-color: #ffffff;
     border: 1px solid #afb1b8;
@@ -534,6 +563,7 @@ a {
     padding: 16px 32px;
     cursor: pointer;
 }
+
 .actions {
     display: flex;
     padding: 0;
@@ -541,6 +571,7 @@ a {
     list-style: none;
     justify-content: center;
 }
+
 /*.actions .icon-insta {
     display: block;
     width: 44px;
@@ -595,7 +626,9 @@ a {
     background-color: #ffffff;
     fill: #afb1b8;
 }
-.icons:hover {
+
+.icons:hover,
+.btn-icon:hover {
     background-color: #2196f3;
     fill: #ffffff;
     border-radius: 50%;
@@ -616,6 +649,7 @@ a {
 .contact-button {
     display: flex;
     justify-content: center;
+    margin-right: 10px;
     padding-top: 34px;
     padding-bottom: 34px;
     padding: 0;
@@ -624,12 +658,49 @@ a {
     max-height: 16px;
     background-color: #ffffff;
     cursor: pointer;
-    border-radius: none;
 }
+
 .link-mail,
 .link-tel {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    color: #757575;
 }
-.link-tel
+
+.link-tel:hover,
+.link-mail:hover {
+    fill: #2196f3;
+}
+
+.title-social-media {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/*icons footer*/
+.icon-footer {
+    fill: #ffffff;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.btn-icon {
+    padding: 0;
+    border: none;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        rgba(255, 255, 255, 0.1);
+}
+
+.footer {
+    display: flex;
+}
