@@ -701,6 +701,7 @@ a {
         rgba(255, 255, 255, 0.1);
 }
 
-.footer {
-    display: flex;
+.social-media {
+    display: inline-block;
+    justify-content: center;
 }
